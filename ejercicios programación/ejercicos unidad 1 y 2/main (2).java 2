@@ -1,0 +1,26 @@
+
+/*
+Online Java - IDE, Code Editor, Compiler
+
+Online Java is a quick and easy tool that helps you to build, compile, test your programs online.
+*/
+
+public class Main
+{
+    public static void main(String[] args) {
+      int pricePant = 30;
+        int priceShirt = 25; 
+        final double discountPercentage = 15;
+        double discountPant = (discountPercentage * pricePant) / 100;
+        double discountShirt = (discountPercentage * priceShirt) / 100;
+        double discountedPricePant = pricePant - discountPant;
+        double discountedPriceShirt = priceShirt - discountShirt;
+        double totalAfterFirstDiscount = discountedPricePant + discountedPriceShirt;
+        System.out.println("El precio total de las prendas con el primer descuento es de: $" + totalAfterFirstDiscount);
+        double additionalShirtDiscountPercentage = 5;
+        double additionalShirtDiscount = (additionalShirtDiscountPercentage * discountedPriceShirt) / 100;
+        double discountedPriceShirtWithAdditional = discountedPriceShirt - additionalShirtDiscount;
+        double totalAfterSecondDiscount = discountedPricePant + discountedPriceShirtWithAdditional;
+        System.out.println("Si compras otra camiseta, el precio total de las dos prendas con el segundo descuento es de: $" + totalAfterSecondDiscount);
+    }
+}
