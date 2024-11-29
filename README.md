@@ -1,4 +1,5 @@
-Ejercicios-tercera-nota
+*Ejercicios-tercera-nota
+
 En este repositorio encontrarás ejercicios de programación realizados durante todo el semestre acádemico con :
 -Esfuerzo (sí, un poco).
 -Dedicación (más o menos).
